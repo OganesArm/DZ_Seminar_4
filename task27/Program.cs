@@ -3,7 +3,7 @@
 Console.Clear();
 Console.Write("Введите число N: ");
 int number = Convert.ToInt32(Console.ReadLine());
-  int sumNumber(int number){
+  int SumNumber(int number){
     int counter = Convert.ToString(number).Length;
     int advance = 0;
     int result = 0;
@@ -15,5 +15,5 @@ int number = Convert.ToInt32(Console.ReadLine());
     }
    return result;
   }
-int sum = sumNumber(number);
+int sum = SumNumber(number);
 Console.WriteLine("Сумма цифр в числе: " + sum);

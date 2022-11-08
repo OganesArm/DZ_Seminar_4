@@ -4,9 +4,12 @@
 
 Console.Clear();
 int [] array = new int [8];
-for  (int i=0; i<array.Length; i++) 
-
+int [] NewArray(int[]Num) {
+for  (int i=0; i<Num.Length; i++)  
 {
-    array [i] = new Random().Next(1, 20);
-     Console.Write(array[i]+"|");
+    Num [i] = new Random().Next(1, 20);
+     Console.Write(array[i]+" ");
 }
+return Num;
+}
+NewArray(array);

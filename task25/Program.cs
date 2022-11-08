@@ -7,7 +7,7 @@ int numA = Convert.ToInt32(Console.ReadLine());
 Console.Write("Введите число B: ");
 int numB = Convert.ToInt32(Console.ReadLine()); 
 
-int sum(int numA, int numB){
+int Sum(int numA, int numB){
 int result = 1;
     for(int i=1; i <= numB; i++){
         result = result * numA;
@@ -15,5 +15,5 @@ int result = 1;
     return result;
 }
 
-int result = sum(numA, numB);
+int result = Sum(numA, numB);
 Console.WriteLine("Ответ: " + result);
